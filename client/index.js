@@ -1,4 +1,4 @@
-const baseURL = 'https://checklist-app-15.herokuapp.com/' 
+const baseURL = 'https://checklist-app-15.herokuapp.com' 
 
 $(document).ready(() => { 
   
