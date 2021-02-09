@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:3000' 
+const baseURL = 'https://checklist-app-15.herokuapp.com/' 
 
 $(document).ready(() => { 
   
