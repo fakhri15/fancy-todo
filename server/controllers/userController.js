@@ -16,6 +16,7 @@ class UserController {
       res.status(201).json(returnedData)
     }) 
     .catch ((err) => { 
+      err.from = 'dari_register'
       next(err)
     })
   } 
@@ -53,6 +54,7 @@ class UserController {
       }
     }) 
     .catch ((err) => { 
+      err.from = 'dari_login'
       next(err)
     })
   } 
@@ -99,6 +101,7 @@ class UserController {
       } 
     })
     .catch((err) => { 
+      err.from = 'dari_google login'
       console.log(err)
     })
   }

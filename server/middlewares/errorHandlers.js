@@ -1,4 +1,5 @@
 function errorHandlers (err,req,res,next) { 
+    console.log(err)
     let arr = []
     let status = 500 
     if (err.name === 'SequelizeValidationError') { 
